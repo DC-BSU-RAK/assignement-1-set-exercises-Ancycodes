@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coastal Landscapes</title>
+  <style>
+    img {
+      filter: grayscale(80%) brightness(1.1) contrast(1.2);
+      display: block;
+      margin-bottom: 5px;
+    }
+    .image-container {
+      margin-bottom: 30px;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Coastal Landscapes</h1>
+
+  <div class="image-container">
+    <img 
+      src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop" 
+      alt="Sunny beach with clear blue sky and waves" 
+      width="800" 
+      height="533" 
+      title="Beach on a sunny day by Sean Oulashin">
+    <p><strong>License:</strong> Free to use under the Unsplash License. No attribution required.</p>
+  </div>
+
+  <div class="image-container">
+    <img 
+      src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop" 
+      alt="Rocky coast with dramatic clouds" 
+      width="800" 
+      height="533" 
+      title="Rocky shoreline during sunset by Simon Migaj">
+    <p><strong>License:</strong> Free to use under the Unsplash License. No attribution required.</p>
+  </div>
+
+  <div class="image-container">
+    <img 
+      src="https://images.unsplash.com/photo-1504609813447-592d3d3125c7?w=800&auto=format&fit=crop" 
+      alt="Lighthouse by the sea during golden hour" 
+      width="800" 
+      height="533" 
+      title="Lighthouse by the sea by Jordan Steranka">
+    <p><strong>License:</strong> Free to use under the Unsplash License. No attribution required.</p>
+  </div>
+
+</body>
+</html>
