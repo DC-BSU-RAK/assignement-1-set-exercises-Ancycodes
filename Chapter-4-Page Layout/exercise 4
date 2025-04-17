@@ -49,3 +49,89 @@
 
 </body>
 </html>
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+}
+
+h1, h2 {
+  font-family: Tahoma, sans-serif;
+  font-weight: 700;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #17072b;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  background-color: #172d67;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 10px;
+}
+
+/* Main Content */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.welcome {
+  flex: 2;
+  padding: 20px;
+}
+
+.lineup {
+  flex: 1;
+  padding: 20px;
+  background-color: #eeeeee;
+}
+
+.lineup .images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.lineup img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  background-color: #8c15e9;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
