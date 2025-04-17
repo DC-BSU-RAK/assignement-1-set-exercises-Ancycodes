@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Digi Fest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Digi Fest 2025</h1>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Line Up</a></li>
+      <li><a href="#">Tickets</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="welcome">
+      <h2>Welcome</h2>
+      <p>
+        Digi Fest is a celebration of digital and technology in the city of Cardiff.
+        This year, we are celebrating ‘collaboration’, so come and find out about the latest
+        collaborations that are happening in this historic and innovative city.
+        They promise an educational and inspirational packed programme for all.
+      </p>
+    </section>
+
+    <aside class="lineup">
+      <h2>Line Up</h2>
+      <p>Here are some of the featured guests for this year's event:</p>
+      <div class="images">
+        <img src="speaker1.jpg" alt="Guest Speaker 1">
+        <img src="speaker2.jpg" alt="Guest Speaker 2">
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Digi Fest. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
